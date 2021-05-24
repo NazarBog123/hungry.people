@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Landing Page">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Website4</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">	
+	<div class="wrapper">
+		<!-- header -->
+		<header class="section-header" id="home">
+			<div class="section-header-inner">
+				<nav class="nav" id='main-navigation'>
+					<div class="nav__item"><a href="#home" class="nav__item-link">HOME</a></div>
+					<div class="nav__item"><a href="#about" class="nav__item-link">ABOUT</a></div>
+					<div class="nav__item"><a href="#team" class="nav__item-link">TEAM</a></div>
+					<div class="nav__item"><a href="#booking" class="nav__item-link">BOOKING</a></div>
+					<div class="nav__item"><a href="#menu" class="nav__item-link">MENU</a></div>
+					<div class="nav__item"><a href="#events" class="nav__item-link">EVENTS</a></div>
+					<div class="nav__item"><a href="#galerie" class="nav__item-link">GALERIE</a></div>
+					<div class="nav__item"><a href="#contact" class="nav__item-link">CONTACT</a></div>
+				</nav>
+				<a href="#" class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+		</header>
+
+		<!-- hero -->
+		<section class="section-hero">
+			<div class="section-hero-inner">
+				<div class="info">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</div>
+				<div class="wrapper-title">
+					<div class="caption">RESTAURANT</div>
+					<div class="title">HUNGRY PEOPLE</div>
+					<div class="btn-group">
+						<a href="#booking" class="btn btn--primary">BOOK TABLE</a>
+						<a href="#specialties" class="btn btn--primary btn--primary-default">EXPLORE</a>
+					</div>
+					<a href="#footer" class="arrow"><img src="img/arrow.svg" alt=""></a>
+				</div>
+				<div class="socials">
+					<a href=""><img src="img/facebook.svg" alt=""></a>
+					<a href=""><img src="img/twitter.svg" alt=""></a>
+					<a href=""><img src="img/instagram.svg" alt=""></a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+
+	<!-- about -->
+	<section class="section-about" id="about">
+		<div class="section-about-inner">
+			<div class="about-wrapper">
+				<div class="title-wrapper">
+					<div class="title">ABOUT US</div>
+					<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+					<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+				</div>
+				<div class="img"><img src="img/about-img.png" alt=""></div>
+			</div>
+		</div>
+	</section>
+		
+
+
+	<!-- team -->
+	<section class="section-team" id="team">
+		<div class="section-team-inner">
+			<div class="caption">OUR TEAM</div>
+			<div class="team-wrapper">
+				<div class="img"><img src="img/chef.png" alt=""></div>
+				<div class="title-wrapper">
+					<div class="title">MASTER CHEF</div>
+					<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+					<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+
+
+	<!-- booking -->
+	<section class="section-booking" id="booking">
+		<div class="section-booking-inner">
+			<div class="booking-wrapper">
+				<div class="info-wrapper">
+					<div class="title">BOOK A TABLE</div>
+					<form action="#">
+						<div class="grid">
+							<input class="input" type="text" placeholder="Name">
+							<input class="input" type="email" placeholder="Email">
+							<input class="input" type="phone" placeholder="Phone">
+							<input class="input" type="number" placeholder="People" pattern="[0-9]">
+							<input class="input" type="text" placeholder="Date (mm/dd)">
+							<input class="input" type="time">
+						</div>
+						<input class="submit" type="submit" value="BOOK NOW">
+					</form>
+				</div>
+				<div class="img"><img src="img/booking-img.png" alt=""></div>
+			</div>
+			<div class="text">Mon - Fri: <span>8PM - 10PM</span>, Sat - Sun: <span>8PM - 3AM</span>, Phone: <span>+40 729 131 637/+40 726 458 782</span></div>
+		</div>
+	</section>
+		
+
+
+
+
+	<!-- specialties -->
+	<section class="section-specialties" id="specialties">
+		<div class="section-specialties-inner">
+			<div class="MySwiper swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="caption">SPECIALTIES</div>
+						<div class="specialties-wrapper">
+							<div class="img"><img src="img/berry.png" alt=""></div>
+							<div class="title-wrapper">
+								<div class="title">CHOCOLATE PANCAKES</div>
+								<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+								<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="caption">SPECIALTIES</div>
+						<div class="specialties-wrapper">
+							<div class="img"><img src="img/berry.png" alt=""></div>
+							<div class="title-wrapper">
+								<div class="title">CHOCOLATE PANCAKES</div>
+								<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+								<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="caption">SPECIALTIES</div>
+						<div class="specialties-wrapper">
+							<div class="img"><img src="img/berry.png" alt=""></div>
+							<div class="title-wrapper">
+								<div class="title">CHOCOLATE PANCAKES</div>
+								<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+								<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dots swiper-pagination"></div>
+			</div>
+		</div>
+	</section>
+		
+
+
+
+	<!-- menu -->
+	<section class="section-menu" id="menu">
+		<div class="section-menu-inner">
+			<div class="menu-wrapper">
+				<div class="title-wrapper">
+					<div class="title">DELICIOUS MENU</div>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+				</div>
+				<ul class="menu-list">
+					<li class="menu-list__item">SOUPE</li>
+					<li class="menu-list__item">PIZZA</li>
+					<li class="menu-list__item">PASTA</li>
+					<li class="menu-list__item">DESERT</li>
+					<li class="menu-list__item">WINE</li>
+					<li class="menu-list__item">BEER</li>
+					<li class="menu-list__item">DRINKS</li>
+				</ul>
+			</div>
+			<div class="price-grid">
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</div>
+					<div class="subprice">Integer ullamcorper neque eu purus euismod</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+
+
+
+
+	<!-- events -->
+	<section class="section-events" id="events">
+		<div class="section-events-inner">
+			<div class="caption">PRIVATE EVENTS</div>
+			<div class="events-wrapper">
+				<div class="img"><img src="img/rings.png" alt=""></div>
+				<div class="img"><img src="img/events-img.png" alt=""></div>
+			</div>
+			<div class="text" id="galerie">For private events please call: <span>+40 729 131 637/+40 726 458 782</span> or use the contact form.</div>
+		</div>
+	</section>
+		
+
+
+
+	<!-- galerie -->
+	<section class="section-galerie">
+		<div class="section-galerie-inner">
+			<div class="grid">
+				<img src="img/galerie-img-1.png" alt="">
+				<img src="img/galerie-img-2.png" alt="">
+				<img src="img/galerie-img-3.png" alt="">
+				<img src="img/galerie-img-4.png" alt="">
+			</div>
+		</div>
+	</section>
+		
+
+
+
+	<!-- contact -->
+	<section class="section-contact" id="contact">
+		<div class="section-contact-inner">
+			<div class="contact-wrapper">
+				<div class="title-wrapper">
+					<div class="title">CONTACT</div>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+				</div>
+				<form class="form" action="#">
+					<div class="grid">
+						<input class="input" type="text" placeholder="Name">
+						<input class="input" type="email" placeholder="Email">
+						<input class="input" type="text" placeholder="Phone">
+					</div>
+					<input type="text" class="input message" placeholder="Message">
+					<input type="submit" class="submit" value="SEND MESSAGE">
+					<div class="text"><i class="fas fa-map-marker-alt"></i> 5th London Boulevard, U.K.<i class="fas fa-phone"></i> +40 729 131 637/+40 726 458 782<i class="fas fa-envelope"></i> office@mindblister.com</div>
+				</form>
+
+			</div>
+		</div>
+	</section>
+		
+
+
+
+	<!-- maps -->
+	<section class="section-maps">
+		<div class="section-maps-inner">
+			<img class="maps" src="img/maps.png" alt="">
+		</div>
+	</section>
+
+	<footer class="section-footer" id="footer">
+		<div class="text">© Copyright <span>Mindblister</span>  2019</div>
+	</footer>
+		
+	<script src="https://kit.fontawesome.com/1480580b5b.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
+
