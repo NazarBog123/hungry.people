@@ -1,5 +1,5 @@
 const mainNavigation = document.getElementById('main-navigation');
-const header = document.getElementById('home');
+const header = document.getElementById('home_1');
 const body = document.querySelector('body');
 
 document.querySelector('.btn-burger').addEventListener('click', () => {
@@ -59,9 +59,9 @@ const getScrollbarWidth = () => {
 
 
 // Smooth scroll
-const anchors = document.querySelectorAll('a[href*="#"]')
+const anchors_1 = document.querySelectorAll('a[href$="1"]')
 
-for (let anchor of anchors) {
+for (let anchor of anchors_1) {
 	anchor.addEventListener("click", function(event) {
 		event.preventDefault();
 		const blockID = anchor.getAttribute('href')
@@ -76,6 +76,19 @@ for (let anchor of anchors) {
 	})
 }
 
+// Smooth scroll2
+const anchors_2 = document.querySelectorAll('a[href$="2"]')
+
+for (let anchor of anchors_2) {
+	anchor.addEventListener("click", function(event) {
+		event.preventDefault();
+		const blockID = anchor.getAttribute('href')
+		document.querySelector('' + blockID).scrollIntoView({
+			behavior: 'smooth',
+			block: 'start'
+		});
+	})
+}
 //Slider 
 new Swiper('.MySwiper', {
 	loop: true,
